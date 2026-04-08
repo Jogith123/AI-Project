@@ -1,0 +1,56 @@
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+:root {
+  --bg-primary: #050509;
+  --bg-card: #0d0d1a;
+  --bg-cell: #0a0a14;
+  --border: #1a1a2e;
+  --accent: #00ff88;
+  --accent-dim: #00cc6a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: #e2e8f0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Food pulse animation */
+@keyframes foodPulse {
+  0%   { box-shadow: 0 0 6px 2px #fbbf24aa; transform: scale(1); }
+  50%  { box-shadow: 0 0 18px 6px #fbbf24ee; transform: scale(1.18); }
+  100% { box-shadow: 0 0 6px 2px #fbbf24aa; transform: scale(1); }
+}
+
+.cell-food {
+  animation: foodPulse 0.9s ease-in-out infinite;
+}
+
+/* Neon glow for snake heads */
+@keyframes headGlow {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
+.cell-head {
+  animation: headGlow 0.6s ease-in-out infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-card); }
+::-webkit-scrollbar-thumb { background: #2a2a4a; border-radius: 3px; }
+
+/* Rankings bar transition */
+.rank-bar {
+  transition: width 0.4s ease;
+}
