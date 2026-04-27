@@ -1,0 +1,22 @@
+Jane Smith
+Marketing Manager
+Email: jane.smith@example.com
+
+Summary:
+Creative and results-driven Marketing Manager with 4 years of experience leading multi-channel campaigns. Skilled in digital marketing, content strategy, and brand development.
+
+Experience:
+Marketing Team Lead | Horizon Corp (2021 - Present)
+- Developed and executed social media strategies that increased engagement by 40%.
+- Managed a budget of $500k for ad spend across Google Ads and Facebook.
+- Collaborated with design teams to produce high-quality promotional materials.
+
+Content Creator | MediaWorks (2019 - 2021)
+- Wrote daily blog posts and managed the company newsletter.
+- Analyzed SEO metrics and improved organic traffic.
+
+Education:
+B.A. in Communications - State University
+
+Skills:
+Digital Marketing, SEO, Content Creation, Social Media Management, Google Analytics, Copywriting.

@@ -1,0 +1,17 @@
+We are looking for a highly skilled Senior Full Stack Developer to join our core engineering team.
+
+Responsibilities:
+- Design and build scalable web applications using React.js on the frontend and Python/FastAPI on the backend.
+- Architect and manage databases using PostgreSQL.
+- Implement containerization using Docker for deployable microservices.
+- Ensure the application runs seamlessly on AWS infrastructure.
+- Write clean, maintainable code and conduct code reviews.
+
+Requirements:
+
+- Strong proficiency in Python, React, JavaScript, and TypeScript.
+- Hands-on experience with FastAPI or Django/Flask.
+- Deep understanding of SQL databases, particularly PostgreSQL.
+- Experience with DevOps tools like Docker and AWS (EC2, S3, RDS).
+- Familiarity with Tailwind CSS and modern web design principles.
+- Independent problem-solver with a strong background in system design.
